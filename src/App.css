@@ -13,7 +13,7 @@ body {
 .name-section {
   padding: 1rem;
   border-radius: 8px;
-  margin: -40rem 1rem 1rem 1rem; /* Top, right, bottom, left */
+  margin-top: -25vw; /* Top, right, bottom, left */
   text-align: center; /* Centers text inside this section */
 }
 
