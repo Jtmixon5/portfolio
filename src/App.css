@@ -13,9 +13,11 @@ body {
 .name-section {
   padding: 1rem;
   border-radius: 8px;
-  margin-top: -25vw; /* Top, right, bottom, left */
+  margin-top: -50vh; /* Top, right, bottom, left */
   text-align: center; /* Centers text inside this section */
 }
+
+
 
 /* Styling for the education section */
 .education-section {
@@ -23,6 +25,10 @@ body {
   border-radius: 8px;
   margin-left: -80vw;
   text-align: center; /* Centers text inside this section */
+}
+
+.contact-info {
+  font-size: xx-large;
 }
 
 /* Heading styles (optional refinements) */
