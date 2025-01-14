@@ -1,41 +1,85 @@
-/* Styling for the body to center everything */
 body {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;    /* Centers vertically */
-  flex-direction: column; /* Stacks items vertically */
-  min-height: 100vh;      /* Ensures it takes the full height of the viewport */
-  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
   font-family: Arial, sans-serif;
+  color: #B3A369;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  
 }
 
-/* Styling for the name section */
-.name-section {
-  padding: 1rem;
-  border-radius: 8px;
-  margin-top: -50vh; /* Top, right, bottom, left */
-  text-align: center; /* Centers text inside this section */
+.header {
+  background-color: #003057;
+  color: #B3A369;
+  padding: 2rem;
+  text-align: center;
+  flex-shrink: 0;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #f4f4f4;
+  padding: 0.5rem 0;
+  flex-shrink: 0;
+}
 
+.navbar a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
 
-/* Styling for the education section */
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.projects-section {
+  min-width: 25vw;
+  text-align: center;
+}
+
 .education-section {
-  padding: 1rem;
-  border-radius: 8px;
-  margin-left: -80vw;
-  text-align: center; /* Centers text inside this section */
+  min-width: 25vw;
+  text-align: center;
+  text-emphasis: bold;
 }
 
-.contact-info {
-  font-size: xx-large;
+.skills-section {
+  border-radius: 5px;
+  min-width: 25vw;
+  text-align: center;
+  white-space: pre;
 }
 
-/* Heading styles (optional refinements) */
-h1 {
+.contact-section {
+  min-width: 25vw;
+  text-align: center;
+}
+
+.skills-section ul {
+  padding: 0;
+}
+
+.skills-section li {
   margin: 0.5rem 0;
 }
 
-h2 {
-  margin: 0.25rem 0;
+.footer {
+  text-align: center;
+  background: #003057;
+  color: #B3A369;
+  padding: 1rem;
+  margin-top: 2rem;
+  flex-shrink: 0;
 }
+.section-headers {
+  text-decoration: underline;
+}
+

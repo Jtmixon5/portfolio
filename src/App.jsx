@@ -1,32 +1,62 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className="name-section">
+    <div className="app-container">
+      {/* Header Section */}
+      <header className="header">
         <h1>Jacob Mixon</h1>
-        <h2 className="contact-info">
+        <h2>Georgia Tech Computer Science Graduate</h2>
+      </header>
+
+      {/* Navigation Bar */}
+      <nav className="navbar">
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      {/* Education Section */}
+      <section id="education" className="education-section">
+        <h2 className="section-headers">Education</h2>
         <p>
-      <a 
-        href="https://www.linkedin.com/in/jacobmixon/"
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="linkedin-link"
-      >
-        LinkedIn
-      </a>
-       {" "}| jtmixon10@gmail.com | U.S. Citizen
+          Georgia Institute of Technology, Bachelor of Science in Computer Science
+          <br />GPA: 3.42 | Awards: High Honors, Faculty Honors, Dean's List
+
         </p>
-      </h2>
-      </div>
-      <div className="education-section">
-        <h1>Education</h1>
-      </div> 
-    </>
-  )
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects" className="projects-section">
+        <h2 className="section-headers">Projects</h2>
+        
+        {/* Add more project cards as needed */}
+      </section>
+
+      {/* Skills Section */}
+      <section id="skills" className="skills-section">
+        <h2 className="section-headers">Skills</h2>
+        <p>
+          Java | C/C++ | C# | JavaScript/React | Python | Communication | 
+        </p>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="contact-section">
+        <h2 className="section-headers">Contact</h2>
+        <p>Email: <a href="jtmixon10@gmail.com">jtmixon10@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Jtmixon5">github.com/Jtmixon5</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/jacobmixon">linkedin.com/in/JacobMixon</a></p>
+      </section>
+
+      {/* Footer Section */}
+      <footer className="footer">
+        <p>&copy; 2025 Jacob Mixon. All rights reserved.</p>
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;
