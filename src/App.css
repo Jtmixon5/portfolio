@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  background-color: #003057;
+  background-image: url(/Photos/HomeBanner.jpg);
   color: #B3A369;
   padding: 2rem;
   text-align: center;

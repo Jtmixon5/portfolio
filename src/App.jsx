@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 function App() {
   return (
     <div className="app-container">
@@ -46,9 +47,9 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="contact-section">
         <h2 className="section-headers">Contact</h2>
-        <p>Email: <a href="jtmixon10@gmail.com">jtmixon10@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/Jtmixon5">github.com/Jtmixon5</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/jacobmixon">linkedin.com/in/JacobMixon</a></p>
+        <p>Email: <a href="mailto:jtmixon10@gmail.com"target="_blank">jtmixon10@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Jtmixon5"target="_blank">github.com/Jtmixon5</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/jacobmixon"target="_blank">linkedin.com/in/JacobMixon</a></p>
       </section>
 
       {/* Footer Section */}
