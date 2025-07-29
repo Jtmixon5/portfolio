@@ -40,7 +40,7 @@ function App() {
       <section id="skills" className="skills-section">
         <h2 className="section-headers">Skills</h2>
         <p>
-          Java | C/C++ | C# | JavaScript/React | Python | Communication | 
+          Java | C/C++ | C# | JavaScript/React | Python | Communication | Teamwork | Problem Solving
         </p>
       </section>
 
