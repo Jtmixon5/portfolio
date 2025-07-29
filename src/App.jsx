@@ -1,6 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Projects from './pages/Projects';
 import './App.css';
 
 
@@ -15,9 +13,10 @@ function App() {
 
       {/* Navigation Bar */}
       <nav className="navbar">
-        <ul>
-          <li><Link to="/">Projects</Link></li>
-        </ul>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </nav>
 
       {/* Education Section */}
