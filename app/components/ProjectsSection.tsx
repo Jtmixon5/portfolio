@@ -7,11 +7,10 @@ export default function ProjectsSection() {
 		<section className="py-20 px-4">
 			<div className="max-w-6xl mx-auto">
 				<motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-16 text-center">
-					Full Stack Projects
+					Projects
 				</motion.h2>
 
 				<div className="space-y-16">
-					{/* E-commerce Platform */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -22,104 +21,89 @@ export default function ProjectsSection() {
 							<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 								<div className="space-y-6">
 									<div>
-										<h3 className="text-2xl font-bold mb-4">Enterprise E-commerce Platform</h3>
+										<h3 className="text-2xl font-bold mb-4">Single Cylcle Computer</h3>
 										<p className="text-gray-400">
-											A high-performance e-commerce solution handling 100K+ daily transactions with real-time inventory and ML-powered recommendations.
+											Designed and verified a 32-bit single-cycle CPU in Verilog
 										</p>
 									</div>
 
 									<div className="grid grid-cols-2 gap-6">
 										<div>
-											<h4 className="text-sm font-semibold text-blue-400 mb-3">Frontend Architecture</h4>
+											<h4 className="text-sm font-semibold text-blue-400 mb-3">Implemented</h4>
 											<ul className="space-y-2 text-sm text-gray-400">
-												<li>• Next.js Server Components</li>
-												<li>• Real-time Cart & Inventory</li>
-												<li>• Stripe Payment Integration</li>
-												<li>• PWA with Offline Support</li>
+												<li>• Modular instruction fetch/decode/execute stage</li>
+												<li>• Microcode ROM</li>
+												<li>• ALU control</li>
+												<li>• NZCV flag logic and conditional branching</li>
 											</ul>
 										</div>
 										<div>
-											<h4 className="text-sm font-semibold text-purple-400 mb-3">Backend Systems</h4>
+											<h4 className="text-sm font-semibold text-purple-400 mb-3">Skills Used</h4>
 											<ul className="space-y-2 text-sm text-gray-400">
-												<li>• Node.js Microservices</li>
-												<li>• Redis Caching Layer</li>
-												<li>• Kafka Event Streaming</li>
-												<li>• Elasticsearch Product Search</li>
+												<li>• Hardware Architecture</li>
+												<li>• RTL Design</li>
+												<li>• Debugging</li>
 											</ul>
 										</div>
-									</div>
-
-									<div className="space-y-3">
-										<h4 className="text-sm font-semibold text-teal-400">Key Achievements</h4>
-										<ul className="space-y-2 text-sm text-gray-400">
-											<li>• 99.99% Uptime with Blue-Green Deployment</li>
-											<li>• 300ms Average API Response Time</li>
-											<li>• 45% Reduction in Infrastructure Costs</li>
-										</ul>
 									</div>
 								</div>
 
 								<div className="bg-black/30 rounded-xl p-6">
 									<h4 className="text-sm font-semibold text-gray-400 mb-4">System Architecture</h4>
 									<div className="aspect-[4/3] bg-black/50 rounded-lg p-4">
-										{/* Add detailed system architecture diagram here */}
 										<svg className="w-full h-full" viewBox="0 0 400 300">
-											{/* Client Layer */}
 											<g>
 												<rect x="20" y="20" width="360" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
 												<text x="200" y="45" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Next.js Frontend (SSR + Client Components)
+													Top Level
 												</text>
 											</g>
-
-											{/* API Layer */}
 											<g>
 												<rect x="20" y="80" width="170" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
-												<rect x="210" y="80" width="170" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
 												<text x="105" y="105" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Product Service
-												</text>
-												<text x="295" y="105" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Order Service
+													Instruction and Data Memory
 												</text>
 											</g>
-
-											{/* Cache Layer */}
 											<g>
 												<rect x="20" y="140" width="360" height="30" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
 												<text x="200" y="160" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Redis Cache Layer
+													CPU Top Level
+												</text>
+												<rect x="110" y="250" width="85" height="40" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
+												<text x="153" y="275" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													Microcode
+												</text>
+											</g>
+											<g>
+												<rect x="20" y="190" width="85" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
+												<rect x="110" y="190" width="85" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
+												<rect x="205" y="190" width="85" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
+												<rect x="295" y="190" width="85" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
+												<text x="63" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													Fetch
+												</text>
+												<text x="153" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													Decode
+												</text>
+												<text x="248" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													Registers
+												</text>
+												<text x="337" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
+													Execute
 												</text>
 											</g>
 
-											{/* Database Layer */}
-											<g>
-												<rect x="20" y="190" width="170" height="40" rx="4" className="fill-blue-500/20 stroke-blue-500" strokeWidth="1" />
-												<rect x="210" y="190" width="170" height="40" rx="4" className="fill-purple-500/20 stroke-purple-500" strokeWidth="1" />
-												<text x="105" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Product DB (PostgreSQL)
-												</text>
-												<text x="295" y="215" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Order DB (MongoDB)
-												</text>
-											</g>
-
-											{/* Search Layer */}
-											<g>
-												<rect x="20" y="250" width="360" height="30" rx="4" className="fill-teal-500/20 stroke-teal-500" strokeWidth="1" />
-												<text x="200" y="270" textAnchor="middle" className="fill-gray-400 text-[12px]">
-													Elasticsearch Product Search
-												</text>
-											</g>
+											
 
 											{/* Connection Lines */}
 											<g className="stroke-gray-600" strokeWidth="1">
-												<line x1="200" y1="60" x2="200" y2="80" />
-												<line x1="105" y1="120" x2="105" y2="140" />
-												<line x1="295" y1="120" x2="295" y2="140" />
-												<line x1="105" y1="170" x2="105" y2="190" />
-												<line x1="295" y1="170" x2="295" y2="190" />
-												<line x1="200" y1="230" x2="200" y2="250" />
+												<line x1="300" y1="60" x2="300" y2="140" />
+												<line x1="110" y1="60" x2="110" y2="80" />
+												<line x1="63" y1="170" x2="63" y2="190" />
+												<line x1="153" y1="170" x2="153" y2="190" />
+												<line x1="248" y1="170" x2="248" y2="190" />
+												<line x1="337" y1="170" x2="337" y2="190" />
+												<line x1="153" y1="250" x2="153" y2="230" />
 											</g>
 										</svg>
 									</div>
