@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Jacob Mixon - Developer + Engineer + IT Professional',
+	title: 'Jacob Mixon - Developer + Engineer',
 	description:
 		'Welcome to my portfolio — I’m Jacob Mixon, a software developer and engineer focused on creating efficient, reliable, and impactful systems.',
 	keywords: [
